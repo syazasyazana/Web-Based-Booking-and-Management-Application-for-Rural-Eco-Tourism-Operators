@@ -1,0 +1,146 @@
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff; /* White background */
+}
+
+/* Top navigation bar */
+.topNav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a1887f; /* Brownish background */
+  color: #3e2723; /* Dark brown for text */
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  z-index: 2;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.topNav img {
+  height: 50px;
+}
+
+.topNav a {
+  color: #3e2723; /* Dark brown for links */
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.topNav a:hover {
+  color: #fff;
+  background-color: #6d4c41; /* Lighter brown on hover */
+}
+
+.topNav .fa {
+  margin-right: 8px;
+}
+
+/* Sidenav */
+.sidenav {
+  position: fixed;
+  height: 100%;
+  width: 200px;
+  top: 60px; /* Match the height of the topNav */
+  left: 0;
+  background-color: #d7ccc8; /* Light brown background */
+  overflow-x: hidden;
+  padding-top: 20px;
+  border-right: 2px solid #8d6e63; /* Subtle brown border */
+}
+
+/* Main content */
+.main {
+  margin-top: 70px; /* Match the height of the topNav */
+  margin-left: 200px; /* Same as the width of the sidenav */
+  padding: 20px 10px;
+  background-color: #fff; /* White background */
+}
+
+/* Dropdown button styles */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  color: #3e2723; /* Dark brown for text */
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+}
+
+.sidenav a:hover, .dropdown-btn:hover {
+  color: white;
+  background-color: #6d4c41; /* Lighter brown hover */
+}
+
+/* Active state for dropdown */
+.active {
+  background-color: #3e2723; /* Dark brown for active */
+  color: white;
+}
+
+/* Dropdown container (hidden by default) */
+.dropdown-container {
+  display: block;
+  background-color: #d7ccc8; /* Light brown */
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 16px;
+  }
+}
+
+input, textarea, select, select option, button {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Form Row styling */
+.rowform {
+  max-width: 400px;
+  padding: 20px;
+  background-color: #f5f5f5; /* Light gray for form background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  border: 1px solid #8d6e63; /* Subtle brown border */
+}
+
+/* Section styling */
+.section {
+  padding: 10px;
+  margin: auto;
+}
+
+/* Footer */
+.footer {
+  background-color: #a1887f; /* Brownish footer */
+  color: #3e2723;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
