@@ -1,1 +1,3 @@
 # Web-Based-Booking-and-Management-Application-for-Rural-Eco-Tourism-Operators
+
+This project involved developing a web-based application designed to streamline the booking and management processes for rural ecotourism operators, specifically for Polumpung. The system includes modules for user registration and login, service listings, service booking and availability, profile and review management, FAQ management, payment processing, invoice generation, and analytics. Built with a MySQL database and incorporating an intuitive user interface, the application supports both admin and customer roles. It aims to improve operational efficiency, enhance customer experience, and provide insightful analytics on visitors, revenue, and service ratings.
